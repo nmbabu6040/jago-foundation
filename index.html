@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Jago foundation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylessheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <!-- header part start -->
+    <header class="header_part" id="header_part">
+        <nav class="navbar navbar-expand-lg menu_bar">
+            <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/jaago-logo_1727084165_w2fULrshk (1).png" alt="" style="width: 110px; height: 73px;">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  justify-content-center menu">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Focus <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown_menu--animated dropdown_menu-6" style="min-width: 250px;">
+                                <li><a class="dropdown-item" href="education.html">Education</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="youth.html">Youth</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="women.html">Women</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="climate-change.html">Climate Change</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="goverance.html">Governance</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Projects <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown_menu--animated dropdown_menu-6" style="min-width: 250px;">
+                                <li><a class="dropdown-item" href="Current-Projects.html">Current Projects</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="complete-projects.html">Completed Projects</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="global-giving-project.html">Global Giving Projects</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Updates <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown_menu--animated dropdown_menu-6" style="min-width: 250px;">
+                                <li><a class="dropdown-item" href="#">Blog</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="JAAGO-in-News.html">Jago In News</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Reports</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Yearbooks</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              About us <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown_menu--animated dropdown_menu-6" style="min-width: 500px;">
+                                <li class="d-flex"><a class="dropdown-item" href="#">Mission, Vision, Values</a> 
+                                    <a class="dropdown-item" href="#">Career</a>
+                                </li>
+                                <li class="d-flex"><a class="dropdown-item" href="#">JAAGO Team</a>
+                                    <a class="dropdown-item" href="#">Internship</a>
+                                </li>
+                                <li class="d-flex"><a class="dropdown-item" href="#">Awards & Recognitions</a>
+                                    <a class="dropdown-item" href="#">Become a Teacher</a>
+                                </li>
+                                <li class="d-flex"><a class="dropdown-item" href="#">FAQ</a>
+                                    <a class="dropdown-item" href="#">Request for Proposal</a>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Contact</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Donate</a>
+                          </li>
+                        </ul>
+                        <div class="button_part">
+                            <button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-search"></i></button>
+                            <a href="sponsor_a_child.html" class="btn2">Sponsor a child</a>
+                        </div>
+                    </div>
+            </div>
+          </nav>
+          <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="">
+                                <div>
+                                    <input type="text" name="search" placeholder="Search in JAAGO..">
+                                    <button type="submit"> <i class="fa-solid fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+     <!-- header part end -->
+
+    <!-- sliding_part start -->
+    <section class="sliding_part" id="sliding_part">
+            <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" dir="ltr">
+                        <img src="images/main_banner.png" class="d-block w-100" alt="..." style="height: 500px;">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="first_banner_content text-start" data-aos="fade-up" data-aos-offset="300"
+                                    data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                                        <h1>Transform the lives <br> of children in need <br> with education</h1>
+                                        <a href="sponsor_a_child.html">Sponsor for a Child</a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                                    <div class="first_banner_img justify-content-end">
+                                        <img src="images/sponsor-a-child.png" class="img-fluid w-100" alt="" style="height: 487px;" data-aos="fade-left" data-aos-offset="300"
+                                        data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                                        <div class="small_pic" data-aos="fade-down" data-aos-offset="300"
+                                        data-aos-easing="ease-in-sine" data-aos-duration="1000"><img src="images/small-banner.png" class="img-fluid" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/sliding_img_2.png" class="d-block w-100" alt="..." style="height: 500px;" >
+                        <div class="second_banner_content text-center">
+                            <h2>জলবায়ু পরিবর্তন প্রতিরোধ করতে তোমরা তৈরি তো?</h2>
+                            <a href="imaGen-Ventures-Youth.html">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fixed_side_button"></div>
+    </section>
+    <!-- sliding_part end -->
+
+    <!-- sponsor_part start -->
+    <section class="sponsor_part" id="sponsor_part">
+        <div class="container">
+                    <div class="sponsor_content" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" data-aos-delay="300">
+                        <div class="row">
+                            <div class="col-12 col-lg-6">
+                                <div class="sponsor_img justify-content-start">
+                                    <img src="images/sponsor-a-child_1714365666_yl5a0ydht (3).jpg" alt="" class="img-fluid w-100">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="sponsor_content_part">
+                                    <h3>Sponsor a child program</h3>
+                                    <p>We believe in the potential of every child and that education is the key to unlocking that potential. Yet, due to financial constraints, for countless children, education is an unattainable luxury. For the past 17 years, we have been working to change this reality! <br><br>
+            
+                                        Through our Sponsor A Child Program, we have ensured quality education for over 4500 children from underserved communities. <br><br>
+                                        
+                                        You can also join the initiative. With just BDT 2,500 per month, you can give children in need access to educational opportunities and support their journey towards a brighter future. Help Change a life today!</p>
+                                        <a href="sponsor_a_child.html">Sponsor a child</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="numberpart_list text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <h3>Number of Unsponsored Children</h3>
+                    <p>675</p>
+                    <a href="sponsor_a_child.html">Sponsor a child today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sponsor_part end -->
+
+    <!-- focus part start -->
+    <section class="focus_part" id="focus_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="focus_div" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                        <div class="focus_div_2 text-start">
+                            <p>Our</p>
+                            <h3>Focus areas</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                        <div class="focus_second_div" >
+                        <div class="focus_second_div_2 text-start">
+                            <img src="images/education_icon-removebg-preview.png" alt="" style="width: 64px; height: 64px;">
+                            <h4>Education</h4>
+                            <p>Education is the core focus area of JAAGO. For 17 years, JAAGO has been working to make education accessible to children from marginalized communities and hard-to-reach areas.</p>
+                            <a href="education.html">Learn more</a>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                        <div class="focus_second_div">
+                        <div class="focus_second_div_2 text-start">
+                            <img src="images/youth_icon-removebg-preview.png" alt="" style="width: 64px; height: 64px;">
+                            <h4>Youth</h4>
+                            <p>With a firm belief that youths are the future of our nation, JAAGO has launched initiatives focusing on youth empowerment and skills development.</p> <br>
+                            <a href="youth.html">Learn more</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                        <div class="focus_second_div" >
+                            <div class="focus_second_div_2 text-start">
+                                <img src="images/women_icon-removebg-preview.png" alt=""  style="width: 64px; height: 64px;">
+                                <h4>Women</h4>
+                                <p>To promote and protect women’s rights, JAAGO has been working to break women’s barriers to education, foster skills development, and raise mass awareness on issues like gender-based violence, mental and menstrual health management etc.</p>
+                                <a href="women.html">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div data-aos="fade-up"data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                        <div class="focus_second_div" >
+                            <div class="focus_second_div_2 text-start">
+                                <img src="images/climate_icon-removebg-preview.png" alt=""  style="width: 64px; height: 64px;">
+                                <h4>Climate Change</h4>
+                                <p>From global warming and environmental pollution to climate change, we are creating opportunities for the youth to do their part to protect our planet.</p> <br><br>
+                                <a href="climate-change.html">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                        <div class="focus_second_div" >
+                            <div class="focus_second_div_2 text-start">
+                                <img src="images/goverance_icon-removebg-preview.png" alt=""  style="width: 64px; height: 64px;">
+                                <h4>Governance</h4>
+                                <p>By equipping youths with the knowledge of civic education and enhancing their knowledge of their civic responsibilities, JAAGO is empowering them to shape their dream Bangladesh.</p><br>
+                                <a href="goverance.html">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- focus part end -->
+
+    <!-- volunterism_part start -->
+    <section class="volunterism_part" id="volunterism_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="volunterism_content text-center">
+                        <h2>Volunteerism</h2>
+                        <p>With an aim to mobilize the youth to build a better nation, we have empowered more than <br> 50,000 young changemakers from all across Bangladesh and engaged them in driving <br> positive societal change.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- volunterism_part end -->
+
+    <!-- communities part star-->
+    <section class="communities" id="communities">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="communities_part text-center">
+                        <p>Do you want to work for the <b>Underprivileged Communities</b> and change their lives?</p>
+                        <a href="">Become a National Volunteer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="boxpart" style="width: 55%;" data-aos="zoom-out-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+                    <div class="box_part d-flex">
+                            <div class="Nationwide text-center col-6 col-lg-6">
+                                <h4>50,000+</h4>
+                                <p>National volunteers</p>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="district text-center col-6 col-lg-6">
+                                <h4>64</h4>
+                                <p>District Covered</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- communities part end -->
+
+    <!-- articles part start -->
+    <section class="articles" id="articles">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="newsPart text-start">
+                        <h3>News & articles</h3>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="butn text-end">
+                        <a href="">View all articles</a>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="articles_part">
+                        <div class="articles_part_content">
+                            <div class="articles_img">
+                                <img src="images/a-bright-new-beginning-jaago-welcomes-600-new-dreams-cover_1 (1).jpg" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="butn_part d-flex">
+                                <span>Education</span>
+                                <span>Child Sponsorship</span>
+                                <small>Jan 01, 2025</small>
+                            </div>
+                            <div class="articles_title_part text-start">
+                                <p>A Bright New Beginning: JAAGO Welcomes 600 New Dreams</p><br>
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="articles_part">
+                        <div class="articles_part_content">
+                            <div class="articles_img">
+                                <img src="images/volunteer-for-bangladesh-marks-international-volunteer-day-w (1).jpeg" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="butn_part d-flex">
+                                <span>Volunteer of Bangladesh</span>
+                                <small>Jan 01, 2025</small>
+                            </div>
+                            <div class="articles_title_part text-start">
+                                <p>Volunteer for Bangladesh Marks International Volunteer Day with the Great Kindness Challenge</p>
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="articles_part">
+                        <div class="articles_part_content">
+                            <div class="articles_img">
+                                <img src="images/protecting-childrens-right-to-education_1732103119_EhYzkHwyh (1).jpg" alt="" class="img-fluid w-100">
+                            </div>
+                            <div class="butn_part d-flex">
+                                <span>Child Sponsorship</span>
+                                <small>Jan 01, 2025</small>
+                            </div>
+                            <div class="articles_title_part text-start">
+                                <p>Protecting Children's Right to Education: Our Commitment for World Children's Day</p>
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- articles part end -->
+
+    <!-- footer part start -->
+    <footer>
+        <section class="footer_top" id="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="footer_descrip text-start">
+                            <img src="images/jaago-logo_1727084165_w2fULrshk (1).png" alt="" style="width: 110px; height: 73px;">
+                            <p>JAAGO Foundation is a non-profit organization that empowers underprivileged individuals and communities in Bangladesh through education, youth development, women’s empowerment, climate change, governance and poverty alleviation.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="footer_descrip_2 text-start">
+                            <h3>About us</h3>
+                            <ul>
+                                <li><a href="sponsor_a_child.html">Sponsor a child</a></li>
+                                <li><a href="#">General donation</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">News & Update</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="footer_descrip_3 text-start">
+                            <h3>Get in touch</h3>
+                            <p><i class="fa-solid fa-home"></i> &nbsp;<span>JAAGO Foundation, House #57, <br>
+                               &nbsp;&nbsp;&nbsp;&nbsp; Road #7B, Block #H, Banani, 1213, <br>&nbsp;&nbsp;&nbsp;&nbsp; Bangladesh</span></p>
+                               <p><i class="fa-solid fa-envelope"></i> &nbsp;<span>info@jaago.com.bd</span></p>
+                               <p><i class="fa-solid fa-phone"></i> &nbsp;<span>+8801766666654</span></p>
+                               <ul class="d-flex">
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram-square"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                               </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer_bootom" id="footer_bootom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="copuright text-center">
+                            <p>© 2025 – JAAGO Foundation | All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer part end -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
